@@ -1,0 +1,365 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.top-container {
+    padding-top: 0px;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/hero.jpg);
+    /* background-image: linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../img/hero.jpg); */
+    background-size: cover;
+    background-position: 100% 57%;
+    position: relative;
+}
+
+.navbar {
+    /* background-color: black; */
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 100%;
+    background-color: #000000;
+    opacity: 0.9;
+}
+
+.navbar-contents {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* .nav-button {
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5rem;
+
+} */
+
+.nav-button {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    color: #000000;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+button {
+    /* border: solid; */
+    /* background-color: green; */
+    padding: 5px, 10px;
+}
+
+.top-section {
+    height: 650px;
+    width: 1350px;
+}
+
+.decagon-logo {
+    padding-left: 100px;
+}
+
+.lrg-navbar {
+    padding-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lrg-list {
+    list-style-type: none;
+    display: flex;
+    justify-self: flex-end;
+}
+
+.lrg-item {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.lrg-item2 {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px, 10px;
+    cursor: pointer;
+    font-size: 25px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+img {
+    opacity: 0.5;
+    height: fit-content;
+    width: fit-content;
+}
+
+.banner-content {
+    /* height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 3rem; */
+    height: 650px;
+    width: 1080px;
+    margin: 0 105px;
+    padding: 0 30px;
+}
+
+.home-header {
+    padding-top: 14.9rem;
+    padding-bottom: 13.6rem;
+}
+
+.banner-heading {
+    font-weight: bold;
+    align-self: center;
+    font-style: normal;
+    font-weight: 800;
+    /* text-align: center; */
+    color: white;
+    /* margin: 0, auto; */
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+}
+
+.build {
+    text-align: center;
+    color: white;
+}
+
+.dec-intro {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 250, 251, 0.7);
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.intro-dec,
+.intro-logos {
+    padding: 0px 30px;
+}
+
+.intro-text {
+    padding-right: 20px;
+    padding-left: 50px;
+    margin-left: 70px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.company-logos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dec-mission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.mission-box {
+    padding: 10px 100px;
+}
+
+.question {
+    display: flex;
+    justify-content: left;
+    padding: 20px 0px;
+}
+
+.mission-sect {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.decadev-image {
+    padding-top: 10px;
+}
+
+.dev-img {
+    height: 90%;
+    width: 350px;
+}
+
+.selling-points {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1,
+.row2,
+.points {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dec-scope {
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    font-size: 25px;
+    font-weight: inherit;
+    padding-top: 30px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    background-color: rgb(249, 250, 251);
+}
+
+.sat-customer {
+    padding-right: 30px;
+}
+
+.feedback-area {
+    padding-left: 30px;
+}
+
+.feedback-text {
+    font-size: x-large;
+}
+
+.feedback-owner {
+    padding-top: 10px;
+}
+
+.feedback-owner-name {
+    font-size: larger;
+}
+
+.sat-img {
+    height: 320px;
+    width: 400px;
+}
+
+.dec-board {
+    padding: 100px;
+    background-color: rgb(249, 250, 251);
+}
+
+.dec-partners {
+    padding: 70px;
+}
+
+.dec-partners {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-self: center;
+}
+
+.skills {
+    background-color: #35a555;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 1280px;
+}
+
+.skills-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.skills-list {
+    display: flex;
+    align-items: baseline;
+}
+
+.dec-news {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.news {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+}
+
+.dec-news1 {
+    background-image: url(images/Indeed.jpg);
+    display: flex;
+    justify-self: left;
+    width: 350px;
+    height: 600px;
+    margin-right: 15px;
+}
+
+.dec-news2 {
+    background-image: url(images/Obaseki.jpg);
+    display: flex;
+    justify-self: center;
+    width: 350px;
+    height: 600px;
+    margin: 0px 15px;
+}
+
+.dec-news3 {
+    background-image: url(images/Sterling.jpg);
+    display: flex;
+    justify-self: right;
+    width: 350px;
+    height: 600px;
+    margin-left: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
