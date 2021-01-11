@@ -374,7 +374,8 @@
     }
     
     @media (min-width: 1200px) {
-        .mission-box {
+        .mission-box,
+        .dec-scope {
             max-width: 1140px;
         }
     }
